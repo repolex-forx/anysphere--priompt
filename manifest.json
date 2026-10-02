@@ -109,6 +109,87 @@
       ],
       "ast": [
         "aggregate/ast/64321bead70ceaec3f1ab7aef28707c557c958fd/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/64321bead70ceaec3f1ab7aef28707c557c958fd.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "napi",
+          "ecosystem": "CARGO",
+          "version": "2.16.17",
+          "githubOrg": "napi-rs",
+          "githubRepo": "napi-rs",
+          "githubUrl": "https://github.com/napi-rs/napi-rs",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/napi-2.16.17/src/error.rs"
+        },
+        {
+          "packageName": "async-channel",
+          "ecosystem": "CARGO",
+          "version": "2.5.0",
+          "githubOrg": "smol-rs",
+          "githubRepo": "async-channel",
+          "githubCommit": "35a63c456aaa1906015f5a825e7e35505a749afa",
+          "githubTag": "v2.5.0",
+          "githubUrl": "https://github.com/smol-rs/async-channel",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/async-channel-2.5.0/src/lib.rs"
+        },
+        {
+          "packageName": "tokio",
+          "ecosystem": "CARGO",
+          "version": "1.53.1",
+          "githubOrg": "tokio-rs",
+          "githubRepo": "tokio",
+          "githubCommit": "75fef53d0a8590c2d1dbb63672aa7b7d1ef51155",
+          "githubTag": "tokio-1.53.1",
+          "githubUrl": "https://github.com/tokio-rs/tokio",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-1.53.1/src/sync/oneshot.rs"
+        },
+        {
+          "packageName": "once_cell",
+          "ecosystem": "CARGO",
+          "version": "1.21.4",
+          "githubOrg": "matklad",
+          "githubRepo": "once_cell",
+          "githubCommit": "80fe900b21f6d76c1a2ed74d3343e8a3a88c46d0",
+          "githubTag": "v1.21.4",
+          "githubUrl": "https://github.com/matklad/once_cell",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/once_cell-1.21.4/src/lib.rs"
+        },
+        {
+          "packageName": "anyhow",
+          "ecosystem": "CARGO",
+          "version": "1.0.104",
+          "githubOrg": "dtolnay",
+          "githubRepo": "anyhow",
+          "githubCommit": "1dbe1862aae650423e3361fbd20b7d17c5109cc3",
+          "githubTag": "1.0.104",
+          "githubUrl": "https://github.com/dtolnay/anyhow",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/anyhow-1.0.104/src/lib.rs"
+        },
+        {
+          "packageName": "napi-build",
+          "ecosystem": "CARGO",
+          "version": "2.6.0",
+          "githubOrg": "napi-rs",
+          "githubRepo": "napi-rs",
+          "githubUrl": "https://github.com/napi-rs/napi-rs",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/napi-build-2.6.0/src/lib.rs"
+        },
+        {
+          "packageName": "napi-derive",
+          "ecosystem": "CARGO",
+          "version": "2.16.13",
+          "githubOrg": "napi-rs",
+          "githubRepo": "napi-rs",
+          "githubUrl": "https://github.com/napi-rs/napi-rs",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/napi-derive-2.16.13/src/lib.rs"
+        }
       ]
     }
   ],

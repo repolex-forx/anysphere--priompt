@@ -1,0 +1,26 @@
+[2026-10-02T11:38:29Z] === ENRICH ITERATION 1 START | repo=anysphere/priompt sha=64321bea ===
+[2026-10-02T11:38:29Z] [iter=1] PHASE START: enrich repo=anysphere/priompt sha=64321bea runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/64321bea-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/64321bead70ceaec3f1ab7aef28707c557c958fd.nq.gz
+[2026-10-02T11:38:29Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-10-02T11:38:33Z] [iter=1] AST store loaded triples=410020 load_secs=4 mem_mb=624 MB
+[2026-10-02T11:38:33Z] [iter=1] Step 2: Finding LSP targets mem_mb=624 MB
+[2026-10-02T11:38:34Z] [iter=1] LSP targets found call_sites=2808 imports=124 extends=5 implements=1 secs=0
+[2026-10-02T11:38:34Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=624 MB
+[2026-10-02T11:38:36Z] [iter=1] Position index built positions=27239 nodes_with_types=31703 secs=2 mem_mb=624 MB
+[2026-10-02T11:38:36Z] [iter=1] Step 3: Starting LSP resolution mem_mb=624 MB already_completed_types=[] already_completed_files=0
+[2026-10-02T11:38:36Z] [iter=1] Resolving target type target_type=call_site count=2808
+[2026-10-02T11:39:21Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.9 files_done=1 resolved=184 errors=249 current=priompt/src/lib.ts
+[2026-10-02T11:40:24Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.9 files_done=2 resolved=451 errors=627 current=priompt-preview/src/openai.ts
+[2026-10-02T11:41:10Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=2.7 files_done=6 resolved=558 errors=895 current=priompt/src/components.tsx
+[2026-10-02T11:41:43Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=3.2 files_done=11 resolved=607 errors=1090 current=examples/src/priompt-preview-handlers.ts
+[2026-10-02T11:42:28Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=4.0 files_done=27 resolved=777 errors=1162 current=tiktoken-node/build.rs
+[2026-10-02T11:42:42Z] [iter=1] Target type resolved target_type=call_site resolved=787 errors=1199 secs=246 mem_mb=624 MB
+[2026-10-02T11:42:42Z] [iter=1] Resolving target type target_type=import_statement count=124
+[2026-10-02T11:43:00Z] [iter=1] Target type resolved target_type=import_statement resolved=62 errors=0 secs=18 mem_mb=624 MB
+[2026-10-02T11:43:00Z] [iter=1] Resolving target type target_type=extends_clause count=5
+[2026-10-02T11:43:00Z] [iter=1] HEARTBEAT target_type=extends_clause elapsed_min=4.5 files_done=0 resolved=0 errors=0 current=priompt/src/openai.ts
+[2026-10-02T11:43:02Z] [iter=1] Target type resolved target_type=extends_clause resolved=5 errors=0 secs=2 mem_mb=624 MB
+[2026-10-02T11:43:02Z] [iter=1] Resolving target type target_type=implements_clause count=1
+[2026-10-02T11:43:03Z] [iter=1] Target type resolved target_type=implements_clause resolved=1 errors=0 secs=2 mem_mb=624 MB
+[2026-10-02T11:43:25Z] [iter=1] Step 5: Writing final enrichment file triples=28711
+[2026-10-02T11:43:25Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/64321bead70ceaec3f1ab7aef28707c557c958fd.nq.gz size_kb=528
+[2026-10-02T11:43:25Z] [iter=1] PHASE END: enrich elapsed_s=297 elapsed_min=4.9 total_triples=28711

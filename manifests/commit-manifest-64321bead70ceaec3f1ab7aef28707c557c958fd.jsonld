@@ -48,10 +48,54 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/64321bead70ceaec3f1ab7aef28707c557c958fd/chunk-001.nq.gz",
       "repolex:graphFileSize": 6160261
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/64321bead70ceaec3f1ab7aef28707c557c958fd.nq.gz",
+      "repolex:graphFileSize": 541327
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-10-02T11:34:08.135426+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "main"
+  "git:tagName": "main",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/napi-rs/napi-rs",
+      "repolex:packageName": "napi"
+    },
+    {
+      "@id": "https://repolex.ai/r/smol-rs/async-channel",
+      "repolex:packageName": "async-channel",
+      "git:hexsha": "35a63c456aaa1906015f5a825e7e35505a749afa",
+      "git:tagName": "v2.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio",
+      "repolex:packageName": "tokio",
+      "git:hexsha": "75fef53d0a8590c2d1dbb63672aa7b7d1ef51155",
+      "git:tagName": "tokio-1.53.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/matklad/once_cell",
+      "repolex:packageName": "once_cell",
+      "git:hexsha": "80fe900b21f6d76c1a2ed74d3343e8a3a88c46d0",
+      "git:tagName": "v1.21.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/anyhow",
+      "repolex:packageName": "anyhow",
+      "git:hexsha": "1dbe1862aae650423e3361fbd20b7d17c5109cc3",
+      "git:tagName": "1.0.104"
+    },
+    {
+      "@id": "https://repolex.ai/r/napi-rs/napi-rs",
+      "repolex:packageName": "napi-build"
+    },
+    {
+      "@id": "https://repolex.ai/r/napi-rs/napi-rs",
+      "repolex:packageName": "napi-derive"
+    }
+  ]
 }
