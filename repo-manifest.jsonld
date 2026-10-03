@@ -8,8 +8,9 @@
     {
       "@id": "https://repolex.ai/r/anysphere/priompt/commit/64321bead70ceaec3f1ab7aef28707c557c958fd",
       "git:hexsha": "64321bead70ceaec3f1ab7aef28707c557c958fd",
-      "repolex:parseStatus": "enrich_complete",
-      "git:tagName": "main"
+      "repolex:parseStatus": "parsed",
+      "git:tagName": "main",
+      "repolex:parsedAt": "2026-10-03T10:28:34.895805+00:00"
     }
   ]
 }

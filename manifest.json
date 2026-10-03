@@ -190,7 +190,9 @@
           "source": "lsp",
           "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/napi-derive-2.16.13/src/lib.rs"
         }
-      ]
+      ],
+      "repolex": "aggregate/repolex/64321bead70ceaec3f1ab7aef28707c557c958fd/chunk-001.nq.gz",
+      "dep": "dep/64321bead70ceaec3f1ab7aef28707c557c958fd.nq.gz"
     }
   ],
   "commit": "commit/commit.nq.gz",
